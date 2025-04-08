@@ -1,0 +1,80 @@
+.item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    border: 1px solid #9d9d9d;
+    border-radius: 40px;
+    padding: 35px;
+    background-color: #fff;
+    gap: 14px;
+    transition: .3s transform, .3s box-shadow;
+
+}
+
+.favorite{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    border: 1px solid #9d9d9d;
+    border-radius: 7px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.priceContainer{
+    display: inline-grid;
+    grid-template-areas: 
+    "titlePrice addToCart"
+    "titleAmount addToCart";
+    column-gap: 30px;
+    row-gap: 2px;
+    align-items: center;
+}
+
+.titlePrice{
+    grid-area: titlePrice;
+}
+
+.addToCart{
+    grid-area: addToCart;
+    border-radius: 7px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.titleAmount{
+    grid-area: titleAmount;
+}
+
+.iconHeart {
+    cursor: pointer;
+    fill: none;
+    color: black;
+}
+  
+.favoriteClicked {
+   fill: #ff8585;
+   color: #ff8585;
+}
+
+.cartIcon {
+   cursor: pointer;
+   width: 32px;
+   height: 32px;
+}
+  
+.cartClicked {
+   background: #89f09c;
+   border-radius: 7px;
+   fill: #89f09c;
+   color: white;
+}

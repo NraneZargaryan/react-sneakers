@@ -1,0 +1,39 @@
+.bascetCard{
+    position: relative;
+    border: 1px solid #f3f3f3;
+    border-radius: 20px;
+    width: 325px;
+    height: 119px;   
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+        "img title"
+        "img price";  
+    row-gap: 10px;
+    column-gap: 21px;
+    align-items: center;
+}
+
+.bascetCardImg{
+    grid-area: "img";
+    width: 70px;
+    height: 70px;
+
+}
+
+.title{
+    grid-area: "title";
+}
+
+.price{
+    grid-area: "price";
+}
+
+.remove{
+    position: absolute;
+    right: 20px;
+    bottom: 21px;
+    color: #b5b5b5;
+    cursor: pointer;
+}
+

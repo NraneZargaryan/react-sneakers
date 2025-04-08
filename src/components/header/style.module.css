@@ -1,0 +1,31 @@
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-top-left-radius:  20px;
+    border-top-right-radius:  20px;
+    background-color: white;
+    margin-top: 85px;
+}
+
+.link:nth-of-type(1){
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+

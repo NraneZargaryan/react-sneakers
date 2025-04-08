@@ -1,0 +1,16 @@
+.search{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--color);
+    padding: 0 10px;
+}
+
+.input{
+    border: none;
+}
+
+.input:focus{
+    outline: none;
+}

@@ -1,0 +1,26 @@
+.logo{
+    display: inline-grid;
+    grid-template-areas: 
+    "img b"
+    "img span";
+    column-gap: 15px;
+}
+
+.img{
+    grid-area: img;
+}
+
+.b{
+    grid-area: b;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.span{
+    grid-area: span;
+    color: var(--color) !important;
+    font-weight: 400;
+    font-size: 14px;
+}
